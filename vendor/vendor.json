@@ -2,5 +2,9 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "gin"
+	"rootPath": "gin",
+  "heroku": {
+    "install" : [ "./..." ],
+    "goVersion": "go1.6"
+  }
 }
